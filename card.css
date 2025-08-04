@@ -1,0 +1,93 @@
+.directory {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.card {
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-body h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.card-body p {
+    margin: 0.3rem 0;
+    color: #555;
+}
+
+.contact-info {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.contact-info a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.additional-info {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    display: none; /* Hide the additional info by default */
+}
+
+.additional-info.show {
+    display: block; /* Show the additional info when the class is added */
+}
+
+.additional-info h4 {
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+.additional-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.additional-info li {
+    margin-bottom: 0.5rem;
+}
+
+.toggle-additional-info {
+    margin-top: 1rem;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.toggle-additional-info:hover {
+    background-color: #3e8e41;
+}
